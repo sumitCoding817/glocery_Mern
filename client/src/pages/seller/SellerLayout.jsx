@@ -50,7 +50,7 @@ const SellerLayout = () => {
               to={item.path}
               key={item.name}
               end={item.path === "/seller"}
-              className={({ isActive }) => `flex items-center py-3 px-4 gap-3 
+              className={({ isActive }) => `flex items-center py-3 px-4 gap-3
                             ${
                               isActive
                                 ? "border-r-4 md:border-r-[6px] bg-indigo-500/10 border-indigo-500 text-indigo-500"
